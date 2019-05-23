@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">LaMP</string>
+
+    <string name="media_type_aiff">media_type_aiff</string>
+    <string name="media_type_ape">media_type_ape</string>
+    <string name="media_type_mp2">media_type_mp2</string>
+    <string name="media_type_mp3">media_type_mp3</string>
+    <string name="media_type_ogg">media_type_ogg</string>
+    <string name="media_type_flac">media_type_flac</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:title="Типы файлов"
+        android:summary="Типы музыкальных файлов для поиска">
+
+        <PreferenceCategory
+            android:title="Выберите типы музыкальных файлов">
+
+            <CheckBoxPreference
+                android:key="@string/media_type_aiff"
+                android:title="AIFF - Apple Inc"
+                android:summary=".aiff .aif">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:key="@string/media_type_ape"
+                android:title="APE - Monkey's Audio"
+                android:summary=".ape">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:key="@string/media_type_mp2"
+                android:title="MP2 - MPEG Audio Layer II"
+                android:summary=".mp2">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:key="@string/media_type_mp3"
+                android:title="MP3 - MPEG Audio Layer III"
+                android:summary=".mp3"
+                android:defaultValue="true">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:key="@string/media_type_ogg"
+                android:title="OGG - Xiph.Org"
+                android:summary=".ogg, .ogv, .oga, .ogx, .spx, .opus .ogm">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:key="@string/media_type_flac"
+                android:title="FLAC - Xiph.Org"
+                android:summary=".flac"
+                android:defaultValue="true">
+            </CheckBoxPreference>
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="media_types"
+        android:title="TEST"
+        android:summary="">
+    </CheckBoxPreference>
+</PreferenceScreen>
